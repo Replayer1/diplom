@@ -1,0 +1,151 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.sort {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 20%;
+  top: 120px;
+  left: 0;
+  padding: 25px;
+  position: fixed;
+  transition: 0.2s;
+  margin-top: 65px;
+  z-index: 50;
+}
+
+.sort-mini {
+  margin-top: -65px;
+}
+
+.sort h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sort-price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 5px;
+  font-size: 20px;
+}
+
+.sort-price div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.sort-price input {
+  width: 110px;
+  margin: 2px;
+  padding: 2px;
+  font-size: 20px;
+}
+
+.sort-stars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 5px;
+}
+
+.sort-stars i {
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.sort-categories {
+  font-size: 22px;
+}
+
+.sort-categories input[type="radio"] {
+  display: none;
+}
+
+.sort-categories input[type="radio"] + label {
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+.sort-categories input[type="radio"]:checked + label {
+  border-bottom: 1px solid #ff620c;
+}
+
+/* ----------------------------  CATALOG ----------------------------  */
+
+.catalog {
+  margin-left: 15%;
+  padding: 50px;
+  min-height: 1000px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.catalog-item {
+  width: 390px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #d3d3d3a1;
+  margin: 20px 10px;
+}
+
+.item__img {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__img img {
+  height: 100%;
+}
+
+.item__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__info p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.item__info h4 {
+  font-size: 24px;
+}
+
+.item__links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__links a {
+  color: black;
+  transition: 0.1s;
+  font-size: 18px;
+}

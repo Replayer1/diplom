@@ -1,0 +1,254 @@
+/* ---------------------------- Main-1 ----------------------------  */
+
+.main-1 {
+  width: 100%;
+  height: 900px;
+  background: url(../media/img/image\ 5.png) no-repeat center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-1__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-1__text h2 {
+  font-size: 65px;
+}
+
+.main-1__text hr {
+  width: 20%;
+  margin: 15px 0px;
+}
+
+.main-1__text p {
+  font-size: 20px;
+}
+
+/* ---------------------------- Main-2 ----------------------------  */
+
+.main-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-2__title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.main-2__title * {
+  text-align: center;
+}
+
+.main-2__title h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-2__title hr {
+  height: 4px;
+  background: #000;
+  border: 0;
+  width: 30%;
+}
+
+.main-2__title p {
+  margin-top: 20px;
+  width: 30%;
+}
+
+.main-2__title * {
+  margin: 5px;
+}
+
+.main-2__info {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-2__info p {
+  width: 50%;
+}
+
+.main-2__info-left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 40%;
+  height: 60%;
+}
+
+.main-2__info-left p {
+  padding: 9px;
+  border-left: 3px solid black;
+}
+
+.main-2__info-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: right;
+  width: 40%;
+  height: 60%;
+}
+
+.main-2__info-right p {
+  padding: 9px;
+  border-right: 3px solid black;
+}
+
+.main-2__info-img img {
+  height: 500px;
+}
+
+.main-2__title-2 {
+  margin-top: -3px;
+  border: 2px solid black;
+  padding: 40px 120px;
+  border-radius: 50px 0 50px 0;
+}
+
+.main-2__plus {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-2__plus div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  margin: 40px 80px;
+}
+
+.main-2__plus i {
+  font-size: 90px;
+}
+
+.main-2__plus p {
+  text-align: center;
+}
+
+/* ---------------------------- Main-2 ----------------------------  */
+
+.main-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #17483f;
+  min-height: 600px;
+  color: white;
+}
+
+.main-3 h3 {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-3__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main-3__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+  height: 400px;
+  text-align: left;
+}
+
+.main-3__info p {
+  text-align: left;
+  font-size: 26px;
+}
+
+.main-3__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 400px;
+}
+
+.main-3__form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90%;
+}
+
+.main-3__form form label {
+  margin: 5px;
+}
+
+.main-3__form form input {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+}
+
+.main-3__form form textarea {
+  resize: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.main-3__form form input:focus {
+  outline: 0;
+}
+
+.main-3__form form textarea:focus {
+  outline: 0;
+}
+
+.main-3__form form button {
+  border: 1px solid #ff620c;
+  color: #ff620c;
+  margin: 10px;
+  margin-left: 5px;
+  width: 60%;
+  transition: 0.2s;
+}
+
+.main-3__form form button:hover {
+  background: #ff620c;
+  color: white;
+}

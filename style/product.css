@@ -1,0 +1,282 @@
+.modalWindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(160, 160, 160, 0.65);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalWindow form {
+  background: rgb(255, 255, 255);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.modalWindow label {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.modalWindow form div {
+  width: 100%;
+  margin: 20px;
+}
+
+.modalWindow form input {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 100%;
+  margin: 20px;
+}
+
+.modalWindow form div input {
+  width: 100%;
+  margin: 0px;
+}
+
+.modalWindow form button {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ff620c;
+  border-radius: 2px;
+  transition: 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.modalWindow form button:hover {
+  border: 1px solid #ff620c;
+  background: #ff620c;
+  color: white;
+}
+
+.modalWindow .button-load {
+  background: #ff8949;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.button-load *{
+  margin: 10px 0px;
+} 
+
+.input-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-number span{
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.input-number span:hover{
+  color: #ff620c;
+}
+
+.x {
+  height: 100px;
+  width: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 40px;
+  color: white;
+}
+
+.x i{
+  cursor: pointer;
+}
+
+
+/* ---------------------------- Main-1 ----------------------------  */
+
+.main-1 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 150px;
+}
+
+.main-1 a {
+  color: #ff620c;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-1__justify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+}
+.product__img {
+  /* height: 350px; */
+  border: 1px solid rgb(211, 211, 211);
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.product__img img {
+  width: 100%;
+}
+.product__info {
+  margin-left: 20px;
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.info-name {
+  font-size: 30px;
+}
+.info-info {
+  font-size: 16px;
+  max-width: 80%;
+}
+.info-quantity {
+  font-size: 22px;
+}
+.info-price {
+  font-size: 26px;
+}
+
+.product__links {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.product__links span {
+  height: 42px;
+  margin: 10px;
+}
+.product__links i {
+  margin: 13px;
+  font-size: 40px;
+  height: 100%;
+}
+.button-on-white {
+  margin: 10px;
+}
+
+.button-on-white-load {
+  margin: 10px;
+  background: #ff8949;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------------------------- Main-2 ----------------------------  */
+.main-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.main-2 h3 {
+  font-size: 30px;
+  margin-left: 255px;
+  margin-top: 10px;
+}
+
+.main-2__product-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main-2__row-item {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  margin: 10px 40px;
+}
+
+.main-2__item-img {
+  width: 265px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.main-2__item-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-2__item-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.main-2__item-info p {
+  display: flex;
+  align-items: center;
+}
+
+.main-2__item-info i {
+  margin-left: 4px;
+  font-size: 22px;
+  color: #ff620c;
+}
+
+.main-2__item-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.main-2__item-links a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: #000;
+  transition: 0.1s;
+}
+
+.main-2__item-links a:hover {
+  border-bottom: 1px solid #ff620c;
+  color: #ff620c;
+}
